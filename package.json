@@ -1,0 +1,27 @@
+{
+  "name": "preclean",
+  "version": "0.1.0",
+  "homepage": "https://github.com/NaeNate/preclean",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaeNate/preclean.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nate Davis",
+    "url": "https://natedavis.dev"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup index.ts --format esm,cjs --dts"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}

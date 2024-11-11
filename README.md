@@ -1,3 +1,3 @@
 # preclean
 
-Cleanup text for processing
+Clean up text for NLP
